@@ -1,0 +1,106 @@
+.nav-bar {
+    width:300px;
+    height: 45rem;
+    min-width: 100px;
+    max-width: 300px;
+    transition: width 1s;
+    cursor: pointer;
+    border-right: 2px solid #d2d2d2;
+    display: flex;
+    background-color: #eff3f6;
+    justify-content: center;
+
+    > .flex-col {
+        > .img-perfil {
+            border: solid 1px #eff3f6;
+            border-radius: 50px;
+            justify-content: center;
+            display: flex;
+            padding-top: 150%;
+
+            > .image-format {
+                height: 50px;
+                width: 50px;
+                border: solid 1px #eff3f6;
+                border-radius: 20px;
+            }
+        }
+
+        > .img-logo {
+            border: solid 1px #eff3f6;
+            justify-content: center;
+            display: flex;
+            padding-top: 15%;
+
+            > .image-format {
+                height: 5rem;
+                width: 10rem;
+                border: solid 1px #eff3f6;
+                border-radius: 20px;
+            }
+        }
+
+        > .justify-end {
+            > .items-center {
+                > .nav-text-pl {
+                    > .notify {
+                        display: flex;
+                        flex-direction: row;
+                    }
+
+                    > .notify-name {
+                        padding-right: 1rem;
+                    }
+
+                    > .notify-number {
+                        display: inline-block;
+                        width: 1rem;
+                        border: solid 1px #eff3f6;
+                        background-color: chartreuse;
+                        border-radius: 8rem;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+ 
+  .content-menu {
+    padding: 10px 5px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2d3539;
+    transition: 1s all;
+    border-radius: 15px;
+
+    > .nav-text-pl {
+        padding-left: 15px;
+    }
+  }
+
+
+  
+  .content-menu:hover {
+    border-radius: 15px;
+    color: #fff;
+    background-image: linear-gradient(to right, #2d3539, #2d3539);
+    border-radius: 10px;
+    
+  }
+  
+  .selected-menu {
+    color: #fff;
+    background-image: linear-gradient(to right, rgb(0,16,79), #1a648e);
+  }
+  
+  .nav-bar:hover {
+    width: 300px;
+  }
+  
+  .text-menu {
+    width: 115px;
+  }
+  

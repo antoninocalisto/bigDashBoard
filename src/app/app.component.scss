@@ -1,0 +1,12 @@
+.bg-system {
+    background-color: #eff3f6;
+
+    > .flex-row-main {
+        display: flex;
+        flex-flow: row wrap;
+
+        > .coluna-56 {
+            width: 55.3%;
+        }
+    }
+}
